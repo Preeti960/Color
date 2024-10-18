@@ -1,0 +1,10 @@
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100px;
+    color: grey;
+    cursor: pointer;
+  }
+  
