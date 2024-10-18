@@ -8,6 +8,7 @@
 /setupTests.js
 # testing
 /coverage
+/App.test.js
 
 # production
 /build
