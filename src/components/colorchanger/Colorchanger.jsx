@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Card from '../Card/Card';
-import Background from '../background/Background'; 
-import "./Colorchanger.css"// Don't forget to import Background!
+import Background from '../Background/Background';
+import "./Colorchanger.css"
 
 function Colorchanger() {
   const [color, setColor] = useState(""); 
