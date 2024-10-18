@@ -19,12 +19,16 @@ function Colorchanger() {
 
   return (
     <>
-      {color && <Background colorname={color} />}
-      <div className="card-container">
+    <div className='row'>
+    {color && <Background colorname={color} />}
+      <div className="card-container col-sm-12 ">
         {Object.keys(colorname).map((key, index) => (
           <Card color={color} setColor={setColor} key={index} colorname={colorname[key]} />
         ))}
       </div>
+
+    </div>
+      
     </>
   );
 }
