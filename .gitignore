@@ -4,11 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-/reportWebVitals.js
-/setupTests.js
+.reportWebVitals.js
+.setupTests.js
 # testing
 /coverage
-/App.test.js
+.App.test.js
 
 # production
 /build
